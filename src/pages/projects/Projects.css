@@ -1,0 +1,38 @@
+.card{
+    border: none;
+}
+.inside-card{
+    width: auto;
+    height: 200px;
+    background-color: #F9F8FD;
+}
+
+.card-body{
+    background-color: antiquewhite;
+    background-color: white;
+    height: 200px;
+    
+}
+.card-items{
+    margin: 0;
+    padding: 0;
+}
+.nft-link{
+    text-decoration: none;
+    color: #FFDA0B;
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.card:hover {
+    background-color: #ccc;
+    transition: all 0.5s ease-in-out;
+  }
+  
+  .card:hover .inside-card img {
+    transform: scale(1.1);
+  }
+  
+  .card:hover .card-body {
+    opacity: 0.7;
+  }

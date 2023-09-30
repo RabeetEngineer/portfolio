@@ -1,0 +1,22 @@
+.footer {
+    background-color: #222222;
+  }
+  
+  .footer-logo {
+    width: auto;
+    height: 250px;
+  }
+  
+  .white-color {
+    color: white;
+  }
+  .main-footer-social{
+    margin-top: 50px;
+  }
+ 
+  
+  .links-footer {
+    text-decoration: none;
+    margin-top: 15px;
+  }
+ 

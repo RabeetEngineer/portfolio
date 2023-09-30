@@ -1,0 +1,36 @@
+.nav-items {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+  margin-right: 20px;
+}
+.logo-name{
+  width: 120px;
+  height: 100px;
+}
+.btn-navbar {
+  background-color: #ffda0b !important;
+  width: 150px;
+  height: 40px;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: bold;
+
+  --b: 0.2em; /* the thickness of the line */
+  --c: #f01313; /* the color */
+
+  color: black;
+  padding-block: var(--b);
+  background: linear-gradient(var(--c) 50%, #000 0) 0%
+      calc(100% - var(--_p, 0%)) / 100% 200%,
+    linear-gradient(var(--c) 0 0) 0% var(--_p, 0%) / var(--_p, 0%) var(--b)
+      no-repeat;
+  -webkit-background-clip: text, padding-box;
+  background-clip: text, padding-box;
+  transition: 0.3s var(--_s, 0s) linear,
+    background-size 0.3s calc(0.3s - var(--_s, 0s));
+}
+.btn-navbar:hover {
+  --_p: 100%;
+  --_s: 0.3s;
+}

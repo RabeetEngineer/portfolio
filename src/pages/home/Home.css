@@ -1,0 +1,188 @@
+.rabeet-img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  .tech-names h2{
+    margin-left: 10px; 
+    margin-right: 10px; 
+    vertical-align: middle;
+  }
+  .discuss{
+    width: 250px;
+    height: 40px;
+    border: 2px solid black;
+    border-radius: 25px;
+    font-size: 20px;
+    font-weight: bold;
+   padding: 0;
+  }
+
+ 
+  .progressing-img {
+    width: auto;
+    height: 100px;
+
+  }
+  
+  /* Remove margin from all h1 elements */
+  h1 {
+    margin: 0;
+  }
+  
+  
+  .discuss:hover{
+    background-color: #ffda0b;
+  }
+  .highlight {
+    background: linear-gradient(to top, #ffda0b 30%, transparent 30%); /* Half yellow background */
+    padding: 0 4px; /* Add padding for spacing around the highlighted text */
+  }
+
+  .tech-items {
+    background-color: #222222;
+    color: white;
+  }
+  
+  .tech-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #333;
+    background-color: #333;
+    margin: 10px;
+    text-align: center;
+  }
+  
+  .tech-item h2 {
+    margin: 0 0 0 8px;
+    font-size: 25px;
+  }
+  
+ 
+  .horizontal-line {
+    border-top: 2px solid #ccc;
+    margin-top: 20px; /* Adjust the margin to control the spacing between rows */
+    width: 80%;
+    margin-left: 10%;
+  }
+  
+  .column-divider-vertical {
+    border-right: 2px solid #ccc;
+    height: 290px;
+        
+  }
+
+ .card2{
+  background-color:bisque;
+  width: 400px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+ .card3{
+  background-color:#ccc;
+  width: 400px;
+  height: 250px;
+  margin-left: 120px;
+  margin-top: 20px;
+ }
+ .card4{
+  background-color:thistle;
+  width: 400px;
+  height: 250px;
+  margin-left: 20px;
+  margin-top: 20px;
+ }
+
+ .card1{
+  background-color:aqua;
+  width: 400px;
+  height: 250px;
+  margin-left: 120px;
+  margin-top: 20px;
+ }
+
+ .btn-cards{
+  width: 170px;
+  border: 2px solid black;
+  color: black;
+  border-radius: 25px;
+  
+}
+.btn-cards:hover{
+  border: 2px solid black;
+  border-radius: 25px;
+  color: white;
+}
+.card-images {
+  width: auto;
+  height: 250px;
+}
+.clinic-img1{
+  width: 250px;
+  height: 200px;
+}
+.clinic-img2{
+  width: 180px;
+  height: 200px;
+  
+}
+.highlight-proj {
+  display: inline-block;
+  background: linear-gradient(to bottom, transparent 70%, #ffda0b 70%);
+  padding: 0 10px;
+  text-align: center;
+  
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+}
+.custom-margin {
+  margin-bottom: 40px /* Adjust margin as needed */
+}
+
+
+@media (max-width: 560px) {
+  .card1{
+   margin-left: 0px; 
+   }
+   .card2{
+    margin-left: 0px;     
+   }
+   .card3{
+    margin-left: 0px;    
+   }
+   .card4{
+    margin-left: 0px;  
+   }
+}
+@media (min-width:561px) and (max-width: 992px) {
+  .card1{
+    margin-left: 120px;    
+   }
+   .card2{
+    margin-left: 120px;    
+   }
+   .card3{
+    margin-left: 120px;    
+   }
+   .card4{
+    margin-left: 120px;    
+   }
+}
+@media (min-width:993px) and (max-width: 1199px) {
+  .card1{
+    margin-left: 50px;    
+   }
+   .card2{
+    margin-left: 0;    
+   }
+   .card3{
+    margin-left: 50px;     
+   }
+   .card4{
+    margin-left: 0;     
+   }
+}
+
