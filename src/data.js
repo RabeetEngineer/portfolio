@@ -6,6 +6,12 @@ export const Projectss = [
         img: "/images/cafex-proj-logo.png",
     },
     {
+        title: "Movie-App",
+        technologies: "React.Js | APIs",
+        link: "https://movie-app-theta-dun.vercel.app/",
+        img: "/images/movie-proj-logo.png",
+    },
+    {
         title: "NFT",
         technologies: "React.js, HTML / CSS, Bootstrap",
         link: "https://nft-by-rabeet.netlify.app/",

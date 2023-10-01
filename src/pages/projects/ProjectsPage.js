@@ -2,19 +2,23 @@ import React from "react";
 import "./Projects.css";
 import "../home/Home.css";
 import ProjectsCard from "./ProjectsCard";
+import { Projectss } from "../../data";
 
-const ProjectsPage = ({ projectsData}) => {
+const ProjectsPage = () => {
  
-console.log(projectsData)
+
   return (
     <div className="container">
-      <h3 className="text-center mt-3">/Work</h3>
-      <p className="text-center">Selected Work I have done in the past</p>
+      <h1 className="text-center mt-5">My Projects </h1>
+      <p className="text-center">/work</p>
+
       <div className="row">
-      {projectsData.map((project) => (
-        <ProjectsCard  project={project} />
-      ))}
+        {Projectss.map((project, index) => (
+          <ProjectsCard key={index} projectsData={project} />
+        ))}
       </div>
+
+     
     </div>
   );
 };

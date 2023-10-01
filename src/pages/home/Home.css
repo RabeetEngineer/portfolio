@@ -157,19 +157,31 @@
     margin-left: 0px;  
    }
 }
-@media (min-width:561px) and (max-width: 992px) {
-  .card1{
-    margin-left: 120px;    
-   }
-   .card2{
-    margin-left: 120px;    
-   }
-   .card3{
-    margin-left: 120px;    
-   }
-   .card4{
-    margin-left: 120px;    
-   }
+
+
+/* For medium screens (561px to 992px) */
+@media (min-width: 561px) and (max-width: 992px) {
+  .card1 {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  .card2 {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  .card3 {
+    margin-left: 10px; /* Adjust as needed */
+  }
+  .card4 {
+    margin-left: 10px; /* Adjust as needed */
+  }
+}
+/* For medium screens (771px to 991px) */
+@media (min-width: 771px) and (max-width: 991px) {
+  
+  .card2,
+  .card4
+   {
+    margin-left: 60px; /* Adjust as needed */
+  }
 }
 @media (min-width:993px) and (max-width: 1199px) {
   .card1{
