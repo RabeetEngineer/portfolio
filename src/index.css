@@ -7,6 +7,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F2EFE7;
+  
+font-family: 'Proza Libre', sans-serif;
+
 }
 
 code {

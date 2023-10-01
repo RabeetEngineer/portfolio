@@ -9,7 +9,7 @@ function ProjectsCard({ project }) {
           <img src={project.img} alt="" />
         </div>
         <div className="card-body">
-          <h3 className="card-title">{project.title}</h3>
+          <h5 className="card-title">{project.title}</h5>
           <p className="card-text">
             <strong>Technologies Used:</strong> {project.technologies}
           </p>

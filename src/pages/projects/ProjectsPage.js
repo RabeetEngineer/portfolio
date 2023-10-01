@@ -3,7 +3,7 @@ import "./Projects.css";
 import "../home/Home.css";
 import ProjectsCard from "./ProjectsCard";
 
-const ProjectsPage = ({ projectsData = [] }) => {
+const ProjectsPage = ({ projectsData}) => {
  
 console.log(projectsData)
   return (
