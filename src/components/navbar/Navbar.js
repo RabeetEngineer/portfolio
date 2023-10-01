@@ -9,7 +9,7 @@ const Navbar = () => {
       <div className="container-fluid">
         <nav class="navbar navbar-expand-lg ">
           <div class="container">
-            <img src="/images/logo.png" className="logo-name" alt="" />
+          <Link to="/">  <img src="/images/logo.png" className="logo-name" alt="" /> </Link>
 
             <button
               className="navbar-toggler"
