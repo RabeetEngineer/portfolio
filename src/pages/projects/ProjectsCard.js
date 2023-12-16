@@ -4,7 +4,7 @@ function ProjectsCard({ projectsData }) {
   return (
   <>
     
-    <div className="col-lg-4 col-md-6 col-sm-12">
+    <div className="col-lg-4 col-md-6 col-sm-12 mb-3">
       <div className="card nft-proj mb-3">
       <a href={projectsData.link} style={{textDecoration:"none", color:"black"}}
       target="_blank">

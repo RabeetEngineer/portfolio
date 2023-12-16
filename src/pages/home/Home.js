@@ -126,7 +126,7 @@ const Home = () => {
           </div>
 
           <div className="container">
-            <div className="row">
+            <div className="row ">
               {Projectss.map((project, index) => (
                 <ProjectsCard key={index} projectsData={project} />
               ))}
