@@ -3,7 +3,7 @@ export const Projectss = [
         title: "Weather",
         technologies: "OpenWeather API, React",
         link: "https://weather-app-rose-xi.vercel.app/",
-        img: "/images/weather-app.png",
+        img: "/images/weather-app.PNG",
     },
     {
         title: "Cafe-X",

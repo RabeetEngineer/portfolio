@@ -16,12 +16,12 @@ const Home = () => {
   useEffect(() => {
     projectsInterval = setInterval(() => {
       // setProjects(Math.min(project => project+1,520))
-      setProjects((project) => Math.min(project + 1, 8));
+      setProjects((project) => Math.min(project + 1, 48));
     }, 200);
 
     onGoingProjectsInterval = setInterval(() => {
       // setOngoingProjects(Math.min(project => project+1, 200))
-      setOngoingProjects((project) => Math.min(project + 1, 2));
+      setOngoingProjects((project) => Math.min(project + 1, 3));
     }, 250);
 
     jobSuccessInterval = setInterval(() => {
@@ -44,7 +44,7 @@ const Home = () => {
             <div className=" col-lg-8 col-md-12 col-sm-12 mt-3">
               <h1>Hey, I'm Hafiz Rabeet, A</h1>
               <h1 className="mt-2">
-                <strong className="highlight"> Frontend </strong> Web Developer
+                <strong className="highlight"> Full Stack </strong> Web Developer
               </h1>
               <div className="mt-3 d-flex align-items-center">
                 <img
@@ -53,7 +53,7 @@ const Home = () => {
                   alt=""
                 />
                 <h5 className="">
-                  "Progressing towards becoming a MERN stack developer."
+                  "Progressing towards becoming a Project Manager."
                 </h5>
               </div>
 
